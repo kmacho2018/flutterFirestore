@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>249251083126-nhi1fv1u2rkrgdaqmnsru5m0il7cl7cp.apps.googleusercontent.com</string>
+	<string>627655156570-rnfugcvpedor10s1i1t86is4pr4qqbk4.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.249251083126-nhi1fv1u2rkrgdaqmnsru5m0il7cl7cp</string>
+	<string>com.googleusercontent.apps.627655156570-rnfugcvpedor10s1i1t86is4pr4qqbk4</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBxACqaNhRb9LEiGsuZ3QVcPCGvKjPbl7k</string>
+	<string>AIzaSyAoUWbY2lgU7thwpZPxcC0b_EuiL1m8W1s</string>
 	<key>GCM_SENDER_ID</key>
-	<string>249251083126</string>
+	<string>627655156570</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.flutterdominicana.firebase.example.flutterfirestore</string>
+	<string>com.flutterdominicana.firestore.flutterfirestore</string>
 	<key>PROJECT_ID</key>
-	<string>flutterdemo-3e2e1</string>
+	<string>flutterdemo-ee4ba</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flutterdemo-3e2e1.appspot.com</string>
+	<string>flutterdemo-ee4ba.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:249251083126:ios:33a573eeb70aed7cb74057</string>
+	<string>1:627655156570:ios:5a7f8fc05481e757ef4963</string>
 	<key>DATABASE_URL</key>
-	<string>https://flutterdemo-3e2e1.firebaseio.com</string>
+	<string>https://flutterdemo-ee4ba.firebaseio.com</string>
 </dict>
 </plist>

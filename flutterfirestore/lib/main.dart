@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
  @override
  Widget build(BuildContext context) {
    return MaterialApp(
-     title: 'Baby Names',
+     title: 'Names',
      home: MyHomePage(),
    );
  }
@@ -24,14 +24,14 @@ class _MyHomePageState extends State<MyHomePage> {
  @override
  Widget build(BuildContext context) {
    return Scaffold(
-     appBar: AppBar(title: Text('Baby Name Votes')),
+     appBar: AppBar(title: Text('Flutter Users Votes')),
      body: _buildBody(context),
    );
  }
 
 Widget _buildBody(BuildContext context) {
  return StreamBuilder<QuerySnapshot>(
-   stream: Firestore.instance.collection('flutterusers').snapshots(),
+   stream: Firestore.instance.collection('flutter_users').snapshots(),
    builder: (context, snapshot) {
      if (!snapshot.hasData) return LinearProgressIndicator();
 
