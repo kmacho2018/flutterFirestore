@@ -1,4 +1,4 @@
-package com.flutterdominicana.firebase.example.flutterfirestore.flutterfirestore
+package com.flutterdominicana.firestore.flutterfirestore.flutterfirestore
 
 import io.flutter.embedding.android.FlutterActivity
 

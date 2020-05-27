@@ -18,6 +18,7 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -28,6 +29,29 @@
       });
     }
   </script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+  <!-- Other firebase SDKs/config here -->
+   <!-- Previously loaded Firebase SDKs -->
+
+  <!-- ADD THIS BEFORE YOUR main.dart.js SCRIPT -->
+  <script>
+    // TODO: Replace the following with your app's Firebase project configuration.
+    // See: https://support.google.com/firebase/answer/7015592
+    var firebaseConfig = {
+      apiKey: "...",
+      authDomain: "flutterdemo-ee4ba.firebaseapp.com",
+      databaseURL: "https://flutterdemo-ee4ba.firebaseio.com",
+      projectId: "flutterdemo-ee4ba",
+      storageBucket: "flutterdemo-ee4ba.appspot.com",
+      messagingSenderId: "...",
+      appId: "1:...:web:...",
+      measurementId: "G-..."
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <!-- END OF FIREBASE INIT CODE -->
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
